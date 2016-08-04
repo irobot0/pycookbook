@@ -1,6 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+PROBLEM
+
+You want to keep a limited history of the last few items seen during iteration
+or during some other kind of processing.
+"""
+
+
+"""
+SOLUTION
+"""
+
 from collections import deque
 
 
@@ -20,6 +32,11 @@ if __name__ == '__main__':
                 print(pline)
             print(line)
             print('-'*20)
+
+
+    """
+    DISCUSSION
+    """
 
     q = deque(maxlen=3)
     q.append(1)
