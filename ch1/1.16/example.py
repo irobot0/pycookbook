@@ -10,7 +10,7 @@ sequence using some criteria.
 
 
 """
-SOLUTION FOR HASHABLE ELEMENTS
+SOLUTION
 """
 
 mylist = [1, 4, -5, 10, -7, 2, 3, -1]
