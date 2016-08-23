@@ -101,6 +101,7 @@ classes = {
     'Point' : Point
 }
 
+
 def unserialize_object(d):
     clsname = d.pop('__classname__', None)
     if clsname:
